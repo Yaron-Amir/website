@@ -572,9 +572,11 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  background-image: url("../images/company/first_background.jpg");
+  padding: 50px;
+  background-position-x: -150px;
+  background-image: url("../images/company/back3.png");
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -588,6 +590,9 @@ a:focus, a:hover {
   right: 0;
   bottom: 0;
   left: 0;
+}
+#hero_container{
+  max-width: 1450px;
 }
 .hero-area .block {
   color: #fff;
@@ -1309,8 +1314,9 @@ a:focus, a:hover {
   Our Team
 ==================================================================*/
 .team {
-  padding: 100px 0;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  /*padding: 100px 0;*/
+  /*padding-bottom: 70px;*/
   background: #F6F6F6;
 }
 .team .team-member {
